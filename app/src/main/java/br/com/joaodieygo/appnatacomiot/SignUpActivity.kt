@@ -23,13 +23,10 @@ class SignUpActivity : AppCompatActivity() {
                     editTxtSenha.text.toString()
             ).addOnCompleteListener{
                 if(it.isSuccessful){
-                    Toast.makeText(this@SignUpActivity,
-                            "Usuário criado com sucesso!",
-                            Toast.LENGTH_SHORT).show()
-                    finish()
+                    salvarNoRealtimeDatabase()
                 }else{
                     Toast.makeText(this@SignUpActivity,
-                            "Erro ao criar o usuário!",
+                            "Erro - ${it.exception?.message}",
                             Toast.LENGTH_SHORT).show()
                 }
             }
