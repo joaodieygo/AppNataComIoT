@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "302708861196",
+    "firebase_url": "https://appnatacomiotjoaodieygo.firebaseio.com",
+    "project_id": "appnatacomiotjoaodieygo",
+    "storage_bucket": "appnatacomiotjoaodieygo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302708861196:android:a151c38e52bf85a8",
+        "android_client_info": {
+          "package_name": "br.com.joaodieygo.appnatacomiot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302708861196-lpc2j1facf3q9rlkp773o6ccb2jftign.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.joaodieygo.appnatacomiot",
+            "certificate_hash": "beb224284730e1ec2ea6857c4e52af0c0438cd6c"
+          }
+        },
+        {
+          "client_id": "302708861196-sgjtk8up994tfh0m3ip55qj44m5umidm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGqaOczTZZuPv-tC4bPNhVJw7wvpAVNQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302708861196-sgjtk8up994tfh0m3ip55qj44m5umidm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
